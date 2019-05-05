@@ -62,6 +62,18 @@ nav {
 		}
 	}
 
+	@media #{$mid-point} {
+		a.highlight {
+			border: 1px #ccc solid;
+			border-radius: 5px;
+
+			&:hover {
+				background: #fff;
+				color: $brand-color;
+			}
+		}
+	}
+
 	a.active {
 		border-bottom: 5px solid #ffa74d;
 	}
