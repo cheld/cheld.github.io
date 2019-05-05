@@ -2,6 +2,7 @@
 title: Pricing
 heading: Find the perfect plan for your business
 description: All plans include our award winning sales optimization solution to track your sales in real time.
+image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 pricing_table:
   - name: Basic
     color: "#8e8e8e"
@@ -67,6 +68,16 @@ faq:
   - question: Questions?
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Our Story</h1>
+			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
+		</div>
+	</div>
+</section>
+
 <div class="plans">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">
