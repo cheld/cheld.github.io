@@ -11,5 +11,6 @@
 - name: Contact
   link: /contact/
 - name: Sign Up
-  link: /
+  link: /signup
   highlight: true
+

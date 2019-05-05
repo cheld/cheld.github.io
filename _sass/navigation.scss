@@ -62,13 +62,15 @@ nav {
 		}
 	}
 
-	a.highlight {
-		border: 1px #ccc solid;
-		border-radius: 5px;
+	@media #{$mid-point} {
+		a.highlight {
+			border: 1px #ccc solid;
+			border-radius: 5px;
 
-		&:hover {
-			background: #fff;
-			color: $brand-color;
+			&:hover {
+				background: #fff;
+				color: $brand-color;
+			}
 		}
 	}
 
