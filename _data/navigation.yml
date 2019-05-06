@@ -1,11 +1,13 @@
-- name: Blog
-  link: /blog/
 - name: Cloud
   link: /cloud/
 - name: Tools
   link: /tools/
-- name: Hacking
+- name: Hack
   link: /cli/
+- name: Learn
+  link: /learn/  
+- name: Blog
+  link: /blog/
 - name: About
   link: /about/
 - name: Contact
