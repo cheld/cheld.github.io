@@ -5,12 +5,12 @@
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
-	background: #fff;
+	background: rgb(55, 128, 223);
 }
 
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .button.alt a:hover {
-	background: #fff;
+	background: rgb(136, 165, 202);
 	color: $brand-color;
 	text-shadow: none;
 }
